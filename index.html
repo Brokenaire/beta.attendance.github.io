@@ -118,8 +118,8 @@
             
             for (let i = 0; i < totalSubjects; i++) {
                 const subjectName = prompt(`Enter the name of subject ${i + 1}:`);
-                const totalSubjectClasses = parseInt(prompt(`Total classes for ${subjectName}:`));
-                const attendedClasses = parseInt(prompt(`Total classes attended for ${subjectName}:`));
+                const totalSubjectClasses = parseInt(prompt(`Enter Total no of classes for ${subjectName}:`));
+                const attendedClasses = parseInt(prompt(`Enter Total no of classes attended for ${subjectName}:`));
                 const dulyLeaves = parseInt(prompt(`Total duly leaves for ${subjectName}:`));
                 
                 const adjustedTotalClasses = totalSubjectClasses + dulyLeaves;
